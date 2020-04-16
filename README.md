@@ -23,35 +23,35 @@ This project is an angular template of atomic design
 
 ng generate module exampleForm --route exampleForm --module app.module
 
-ng generate module example-form\pages\page1 --route page1 --module example-form.module
+ng generate module example-form/pages/page1 --route page1 --module example-form.module
 
-ng generate module example-form\Templates\example-temp --module example-form\pages\page1\page1.module
-ng generate module example-form\Templates\example-temp2 --module example-form\pages\page1\page1.module
+ng generate module example-form/Templates/example-temp --module example-form/pages/page1/page1.module
+ng generate module example-form/Templates/example-temp2 --module example-form/pages/page1/page1.module
 ng generate component example-form/Templates/example-temp
 ng generate component example-form/Templates/example-temp2
 
-ng generate module example-form\organisms\example-org --module example-form\pages\page1\page1.module
-ng generate module example-form\organisms\example-org2 --module example-form\pages\page1\page1.module
-ng generate module example-form\organisms\example-org3 --module example-form\pages\page1\page1.module
+ng generate module example-form/organisms/example-org --module example-form/pages/page1/page1.module
+ng generate module example-form/organisms/example-org2 --module example-form/pages/page1/page1.module
+ng generate module example-form/organisms/example-org3 --module example-form/pages/page1/page1.module
 ng generate component example-form/organisms/example-org
 ng generate component example-form/organisms/example-org2
 ng generate component example-form/organisms/example-org3
 
-ng generate module example-form\molecules\form --module example-form\organisms\example-org\example-org.module
-ng generate module example-form\molecules\avatar-container --module example-form\organisms\example-org2\example-org2.module
-ng generate module example-form\molecules\label-conatiner --module example-form\organisms\example-org\example-org.module
-ng generate module example-form\molecules\list-conatiner --module example-form\organisms\example-org3\example-org3.module
+ng generate module example-form/molecules/form --module example-form/organisms/example-org/example-org.module
+ng generate module example-form/molecules/avatar-container --module example-form/organisms/example-org2/example-org2.module
+ng generate module example-form/molecules/label-conatiner --module example-form/organisms/example-org/example-org.module
+ng generate module example-form/molecules/list-conatiner --module example-form/organisms/example-org3/example-org3.module
 ng generate component example-form/molecules/form
 ng generate component example-form/molecules/avatar-container
 ng generate component example-form/molecules/label-conatiner
 ng generate component example-form/molecules/list-conatiner
   
-ng generate module example-form\atoms/rich-text --module example-form\molecules\form\form.module
-ng generate module example-form\atoms/avatar-comp --module example-form\molecules\avatar-container\avatar-container.module
-ng generate module example-form\atoms/button --module example-form\molecules\form\form.module
-ng generate module example-form\atoms/text --module example-form\molecules\form\form.module
-ng generate module example-form\atoms/label --module example-form\molecules\label-conatiner\label-conatiner.module
-ng generate module example-form\atoms/list --module example-form\molecules\list-conatiner\list-conatiner.module
+ng generate module example-form/atoms/rich-text --module example-form/molecules/form/form.module
+ng generate module example-form/atoms/avatar-comp --module example-form/molecules/avatar-container/avatar-container.module
+ng generate module example-form/atoms/button --module example-form/molecules/form/form.module
+ng generate module example-form/atoms/text --module example-form/molecules/form/form.module
+ng generate module example-form/atoms/label --module example-form/molecules/label-conatiner/label-conatiner.module
+ng generate module example-form/atoms/list --module example-form/molecules/list-conatiner/list-conatiner.module
 ng generate component example-form/atoms/avatar-comp
 ng generate component example-form/atoms/button
 ng generate component example-form/atoms/button
