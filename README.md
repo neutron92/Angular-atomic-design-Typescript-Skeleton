@@ -64,7 +64,7 @@ ng generate service services/nom-service
 ```
 # Perspective
 we want to add
-```
+
 -  [@ngrx/store](https://ngrx.io/guide/store) - RxJS powered state management for Angular apps, inspired by Redux
 
 -  [@ngrx/effects](https://ngrx.io/guide/effects) - Side effect model for @ngrx/store
@@ -80,16 +80,16 @@ we want to add
 -  [@angular/material](https://github.com/angular/material2) - Angular Material
 
 -  [jest](https://facebook.github.io/jest/) - JavaScript test runner with easy setup, isolated browser testing and snapshot testing
-```
+
 ### DummyAPI to test
-```
+
 -  [https://any-api.com/](https://any-api.com/)
 
 -  [https://reqres.in/](https://reqres.in/)
 
 -  [https://www.programmableweb.com/category/books/api](https://www.programmableweb.com/category/books/api)
 
-```
+
 
 
 ## Development server
