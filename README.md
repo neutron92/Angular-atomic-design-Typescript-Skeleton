@@ -1,5 +1,5 @@
 
-# GabaritUi
+# Angular atomic design
 This project is an angular template of atomic design
   
 
