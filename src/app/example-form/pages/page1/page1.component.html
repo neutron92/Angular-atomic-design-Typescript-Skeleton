@@ -1,0 +1,9 @@
+<gabarit-example-temp *ngIf="isTemplate1()">
+    <gabarit-example-org *ngIf="getEditMode()" class="left-content"></gabarit-example-org>
+    <gabarit-example-org2 *ngIf="readOnlyMod()" class="right-content"></gabarit-example-org2>
+</gabarit-example-temp>
+<gabarit-example-temp2 *ngIf="isTemplate2()">
+    test will not apear
+
+    <div>test2 will apear</div>
+</gabarit-example-temp2>

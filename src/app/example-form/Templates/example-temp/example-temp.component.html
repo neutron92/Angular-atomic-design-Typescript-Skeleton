@@ -1,0 +1,11 @@
+<div class="container example-temp-container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px"
+  fxLayoutGap.xs="0">
+  <div fxFlex="20%">
+    <ng-content select=".left-content"></ng-content>
+  </div>
+  <div fxFlex="75%">
+    <ng-content select=".right-content"></ng-content>
+  </div>
+  
+  <ng-content></ng-content>
+</div>
